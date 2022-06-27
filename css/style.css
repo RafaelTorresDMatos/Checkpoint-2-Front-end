@@ -6,6 +6,33 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  overflow-y: auto;
+  height: calc(100% - 60px);
+  margin-top: 60px;
+}
+.fixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  text-decoration: none;
+}
+.fixo::after {
+  content: "^";
+  font-size: 32px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: margin-top 250ms;
+}
+.fixo:hover::after {
+  margin-top: -8px;
+}
 /*header*/
 .logo {
   border-radius: 60px;
@@ -16,6 +43,12 @@ body {
   width: 100%;
   height: 80vh;
   object-fit: contain;
+}
+.carousel-caption {
+  /*background-color: rgba(24, 25, 26, 0.308);*/
+}
+.border-3 {
+  --bs-border-width: 0;
 }
 /*Media queer */
 @media (max-width: 500px) {
@@ -73,13 +106,6 @@ h1 {
   align-items: center;
   margin-top: 25vh;
 }
-/*media Queer*/
-@media (max-width: 500px) {
-  .login {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 .image-login {
   background-image: url("https://wallpaperaccess.com/full/3097725.jpg");
   object-fit: contain;
@@ -89,4 +115,19 @@ h2 {
 }
 #card-login {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.logo_login {
+  border-radius: 50px;
+  width: 150px;
+  height: 100px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+}
+/*media Queer*/
+@media (max-width: 500px) {
+  .login {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
