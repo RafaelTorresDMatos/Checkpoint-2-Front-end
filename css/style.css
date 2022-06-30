@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
+=======
+>>>>>>> 5d340e4c51dfeb172de9ab3fe7e09c3e2db9b2a2
 html {
   scroll-behavior: smooth;
 }
@@ -35,6 +38,7 @@ body {
 .fixo:hover::after {
   margin-top: -8px;
 }
+<<<<<<< HEAD
 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
@@ -44,6 +48,8 @@ h3 {
     font-size: 20px;
   }
 }
+=======
+>>>>>>> 5d340e4c51dfeb172de9ab3fe7e09c3e2db9b2a2
 /*header*/
 .logo {
   border-radius: 60px;
@@ -55,6 +61,12 @@ h3 {
   height: 80vh;
   object-fit: contain;
 }
+<<<<<<< HEAD
+=======
+.carousel-caption {
+  /*background-color: rgba(24, 25, 26, 0.308);*/
+}
+>>>>>>> 5d340e4c51dfeb172de9ab3fe7e09c3e2db9b2a2
 .border-3 {
   --bs-border-width: 0;
 }
@@ -139,6 +151,7 @@ h2 {
     margin-right: 20px;
   }
 }
+<<<<<<< HEAD
 /* content */
 
 section > h1 {
@@ -244,3 +257,5 @@ footer {
   width: 150px;
   top: -60px;
 }
+=======
+>>>>>>> 5d340e4c51dfeb172de9ab3fe7e09c3e2db9b2a2
