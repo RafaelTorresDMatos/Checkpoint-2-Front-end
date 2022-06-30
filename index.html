@@ -15,7 +15,7 @@
   <body>
     <header class="fixed-top border-bottom border-3">
       <nav
-        id="navbar-example2"
+        id="navbar"
         class="navbar navbar-expand-lg bg-light navbar-dark bg-dark"
       >
         <div class="container-fluid text-bg-dark p-3">
@@ -47,20 +47,31 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Animes
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="/OnePiece.html">One Piece</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">One-Punch Man</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">FullMetal Alchemist</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Hunter x Hunter</a></li>
+                  <li><a class="dropdown-item" href="#">Death Note</a></li>
+                  <li><a class="dropdown-item" href="#">Jujutsu Kaisen</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Colaboradores</a>
                   </li>
                 </ul>
               </li>
             </ul>
             <div class="nav navbar-nav navbar-right">
-              <a href="#" class="btn btn-danger navbar-btn" role="button"
+              <a
+                href="./login.html"
+                class="btn btn-danger navbar-btn"
+                role="button"
                 >Login</a
               >
             </div>
@@ -76,7 +87,7 @@
     <main>
       <!-- Carousel -->
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicators/dots -->
+        <!-- Indicators -->
         <div class="carousel-indicators">
           <button
             type="button"
@@ -94,31 +105,58 @@
             data-bs-target="#demo"
             data-bs-slide-to="2"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
         </div>
 
-        <!-- The slideshow/carousel -->
+        <!-- Imagens carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://images5.alphacoders.com/105/1057849.jpg"
-              alt="Los Angeles"
+              class="image"
+              src="https://as2.ftcdn.net/v2/jpg/04/46/93/93/1000_F_446939375_83iP0UYTg5F9vHl6icZwgrEBHXeXMVaU.jpg"
+              alt="Home-Inicial"
               class="d-block w-100"
               sizes="50%"
             />
+            <div class="carousel-caption">
+              <h3 style="color: black;">
+                <b> Anime Channel - Seu guia de Anime!</b>
+              </h3>
+              <a href="./login.html"
+                ><button type="button" class="btn btn-primary">Login</button></a
+              >
+            </div>
           </div>
           <div class="carousel-item">
             <img
-              src="https://2.bp.blogspot.com/-a8e_1DvBzQo/XjVdtF950kI/AAAAAAAAUSo/SGRr-9NECs8BdEmeeXEuV7cyhwlf49NpACLcBGAsYHQ/w919/straw-hat-zombies-pirates-one-piece-uhdpaper.com-4K-6.178-wp.thumbnail.jpg"
-              alt="Chicago"
+              class="image"
+              src="https://4.bp.blogspot.com/-etfnyaORtmU/WO1q1PhBnZI/AAAAAAAAAZM/kUqkNzgpUjANMu_8vdGCg5rRUR_vJ2qCACLcB/s1600/Blue.jpg"
+              alt="One-Push"
               class="d-block w-100"
             />
+            <div class="carousel-caption"></div>
           </div>
           <div class="carousel-item">
             <img
-              src="https://images3.alphacoders.com/278/278485.jpg"
-              alt="New York"
+              class="image"
+              src="https://assets.puzzlefactory.pl/puzzle/259/479/original.webp"
+              alt="One-Piece"
               class="d-block w-100"
             />
+            <div class="carousel-caption"></div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="image"
+              src="https://images4.alphacoders.com/722/722225.jpg"
+              alt="Full-metal"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption"></div>
           </div>
         </div>
         <button
@@ -127,7 +165,7 @@
           data-bs-target="#demo"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon"></span>
+          <span class="carousel-control-prev-icon bg-dark"></span>
         </button>
         <button
           class="carousel-control-next"
@@ -135,9 +173,141 @@
           data-bs-target="#demo"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon"></span>
+          <span class="carousel-control-next-icon bg-dark"></span>
         </button>
       </div>
+      <!-- Conteúdo -->
+      <section>
+        <h1>Animes em destaque</h1>
+
+        <div class="content">
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://sm.ign.com/t/ign_br/news/o/one-piece-/one-piece-live-action-series-seemingly-coming-to-netflix_1fcz.h720.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">One Piece</h5>
+              <p class="card-text">
+                Luffy, um jovem cujo corpo ganhou as propriedades de borracha
+                após ter comido uma fruta do diabo acidentalmente.
+              </p>
+              <a href="./OnePiece.html" class="btn btn-danger w-100"
+                >Saiba mais</a
+              >
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://omaringa.com.br/wp-content/uploads/2021/10/one-punch-man-2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">One-Punch Man</h5>
+              <p class="card-text">
+                O super-herói mais forte do mundo pode matar qualquer um com um
+                só golpe.<br />
+              </p>
+              <a href="#" class="btn btn-danger w-100">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2017/02/fullmetal-alchemist-primeira-imagem-de-alphonse.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">FullMetal Alchemist</h5>
+              <p class="card-text">
+                O alquimista Edward Elric é observado por militares e monstros
+                misteriosos enquanto procura um jeito de restaurar o corpo do
+                irmão.
+              </p>
+              <a href="#" class="btn btn-danger w-100">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://sm.ign.com/ign_br/screenshot/default/2_r47q.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hunter x Hunter</h5>
+              <p class="card-text">
+                Gon parte em uma aventura para se tornar um caçador profissional
+                que arrisca a própria vida em busca do desconhecido.
+              </p>
+              <a href="#" class="btn btn-danger w-100">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://gamehall.com.br/wp-content/uploads/2016/03/deathNote.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Death Note</h5>
+              <p class="card-text">
+                Um estudante do ensino médio que descobre um caderno
+                sobrenatural, no qual pode matar pessoas se os nomes forem
+                escritos.
+              </p>
+              <a href="#" class="btn btn-danger w-100">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 18rem;">
+            <img
+              src="https://www.animationmagazine.net/wordpress/wp-content/uploads/Jujutsu-Kaisen-5.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jujutsu Kaisen</h5>
+              <p class="card-text">
+                Yuuji engole o dedo para proteger Megumi e seus amigos e se
+                torna o anfitrião de Sukuna, uma poderosa Maldição.
+              </p>
+              <a href="#" class="btn btn-danger w-100">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#" class="fixo"></a>
+      <footer>
+        <div class="footer">
+          <div class="contributors">
+            <h5>Rafael Torres</h5>
+            <p class="rp">Responsável pelo desenvolvimento de...</p>
+            <a
+              href="https://www.linkedin.com/in/rafael-torres-de-matos-57b336239"
+              ><img src="./img/linkedinIcon.svg" alt="linkedinIcon" width="25"
+            /></a>
+            <a href="https://github.com/RafaelTorresDMatos"
+              ><img src="./img/Git.png" alt="icone-github-grise" width="25"
+            /></a>
+          </div>
+          <div class="contributors">
+            <h5>Renan Venicio</h5>
+            <p class="rp">Responsável pelo desenvolvimento de...</p>
+            <a href="https://www.linkedin.com/in/renan-venicio-88b86b96"
+              ><img src="./img/linkedinIcon.svg" alt="linkedinIcon" width="25"
+            /></a>
+            <a href="https://github.com/keikurunu"
+              ><img src="./img/Git.png" alt="icone-github-grise" width="25"
+            /></a>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
